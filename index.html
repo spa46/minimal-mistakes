@@ -1,14 +1,21 @@
 ---
 layout: archive
+permalink: /
+title: ""
+excerpt: '<br /><br /><br /><large>We cannot solve a problem by using the same kind of thinking we used when we created them.</large> <br /> <small><i> - A. Einstein.</i></small><br /><br /><br /><br />'
+header:
+  overlay_image: main_bg1.jpg
+  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
 author_profile: true
 ---
 
 {% include base_path %}
 
-<h3 class="archive__subtitle">Recent Posts</h3>
+<h1 class="archive__subtitle">Recent Posts</h1>
 
 {% for post in paginator.posts %}
   {% include archive-single.html %}
 {% endfor %}
 
 {% include paginator.html %}
+
