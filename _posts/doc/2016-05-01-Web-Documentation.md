@@ -2,28 +2,31 @@
 layout: single
 title: "Documentation: Create a website using Jekyll"
 header:
-  image: 
-  teaser: 
-tag: Minimal Mistakes, Jekyll, Webpage
-categories: Documentation, Project
+  image: main_doc1.jpg
+  teaser: main_doc1.jpg
+  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
+tag: 
+  - Website
+categories: 
+  - Documentation
 
 author_profile: true
 ---
 
 {% include toc %}
 
-This page describes how to make github blog step by step using Jekyll on Windows 7.
+This page describes how to make personal github site step by step using Jekyll on Windows 7.
 
 # Installation (Contents)
 
 1. Install Ruby. (For more Information, Click [Here](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/)).
 
-2. You need Jekyll, a part of Ruby Gem. <br>
+2. You will also need Jekyll, a part of Ruby Gem. <br>
 
         gem install jekyll
 
 
-3. If you have a Gemfile, check it contains below line and add if you do not have the line.
+3. If you have a Gemfile, and add a following line if you do not see the line 
 
 	    gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
@@ -96,7 +99,7 @@ To change layouts, fonts, colors, assets directory needs modifications and nodej
 	├── index.html                 # paginated home page showing recent posts
 	└── package.json               # NPM build scripts
 
-More detailed structure, click [Here](https://mmistakes.github.io/minimal-mistakes/docs/structure/).
+Too se more detailed structure, click [Here](https://mmistakes.github.io/minimal-mistakes/docs/structure/).
 
 
 # Github Configuration
