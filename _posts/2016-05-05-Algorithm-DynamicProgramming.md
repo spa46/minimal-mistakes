@@ -12,53 +12,52 @@ categories:
 author_profile: true
 ---
 
-Usually return value of the result of recursion or iteration may forgettable but using memorization effectively enhance the programme performance.
+Recursive method oftenly used to enhance readability and performance but sometimes it disgrades the effectiveness due to inappropriate approach. To use it rightfully, sometimes, memorized recursion may take the place.
 
-The example is given and have a look at memorization, dynamic programming method and  before finish it, briefly look at vaious approaches to solve the problem.
+In this post, the question is provided below to carefully analyze which algorithm would be a reasonable approach to solve the problem.
 
 	Assume, there is a 2D graph start from (0,0) and it wants to reach to (5,4). 
 	How many ways to reach to the desination?
 
-From the above question, what could be the best approach to solve the question? <br>
-Mathmatical approach? Graph algorithm such as DFS, BFS?
+what could be the best approach above? <br>
+Mathmatical or graph such as DFS, BFS or recursion?
 
-In this post, solution would be given step by step using Memorized recursion and dynamic approach. After then, I will briefly talk about methods with graph and mathmatics.
+To see it in brief, first, memorized recursion and dynamic prgoramming method would be illustrated and then, mathmatical and graph would come at second.
 
 ### Memorized Recursion
 
-<br>To express the problem on tree, we can illustrate it as below.<br><br>
+<br>Below is the conversion of the problem into tree.<br><br>
 ![tree](/images/algorithm/dynprog/tree.png)
 
 <br>However, there are redundancies as shown in below figure.<br><br>
 ![tree](/images/algorithm/dynprog/tree_redundant.png)
 
-<br>We can optimize the redundancies and can express it as below.<br><br>
+<br>We could optimize the redundancies and can express it as below.<br><br>
 ![tree](/images/algorithm/dynprog/tree_improved.png)
 
-<br>Now, in this tree, we can store the value of visited nodes.<br>
+<br>Nodes which is already explored could store its value in memory. <br>
 	For example, after a visit to (1,1), **35** is stored in node (1,1).<br><br>
 ![tree](/images/algorithm/dynprog/tree_improved_path.png)
 
-<br>After the first visit, retrieve 35 by accessing (1,1).<br><br>
+<br>After the first visit, the value 35 could be retrieved by accessing (1,1).<br><br>
 ![tree](/images/dynprog/algorithm/tree_improved_path2.png)
 
-
+<To be Updated more soon..>
 
 ### Dynamic Recursion
-
+<To be updated soon ... >
 
 
 
 1. Searching Approach
 
-    there would be simply ***Depth First Search(DFS)*** and ***Breadth First Search (BFS)***.
-    However, this would be an ineffective solution because each node needs to be visited without pruning. If the size becomes greater, it would take very long time.
+    To solve the problem, ***Depth First Search(DFS)*** and ***Breadth First Search (BFS)*** could be used.
+    However, it seems this would be an ineffective solution because each node needs to be visited without pruning. If the size becomes greater, it would take very long time.
 
 2. Mathmatical Approach
 
-	In other way to saying the question is "How many paths are there to move 5 steps to the right, 4 steps to the up?" or "9 steps can be moved to the right and how many patterns are there to move 4 steps to the up"
+	For the question, it could be asked in different following way: "How many paths are there to move 5 steps to the right and 4 steps to the up?" or "9 steps can be moved to the right and how many patterns are there to move 4 steps to the up"
 
-	In this case, we can use ***combination*** in mathmatical approach.
-	9C4 = 126.
+	In this case, we can use mathmatical ***combination*** approach. In this case, the answer becomes 9C4 = 126.
 
 3. 
