@@ -13,8 +13,10 @@ name                     : &name "Sean Se-Chang Park"
 description              : &description "Sean's site"
 url                      : #the base hostname & protocol for your site e.g. "#http://spa46.github.io"
 baseurl                  : #"/spark" # the subpath of your site, e.g. "/blog" 
+header:
+  teaser                 : main_bg1.jpg
 gh_repo                  :
-# breadcrumbs            : false # true, false (default)
+#breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
@@ -204,3 +206,11 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+defaults:
+# _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
