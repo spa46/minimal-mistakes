@@ -54,5 +54,10 @@ Target: Design, Implementation and test AMP board, and Take control of the perip
 
 ![AVN](/images/work/avn.png)
 
+## Calendar/Diary Application.  
 
-## **(To be updated more soon..)** ##
+Target: Application implementation including testing on top of IVOS UI framework as well as issue analysis and troubleshooting.
+
+![calendar UI](/images/work/celrun.png)
+
+
