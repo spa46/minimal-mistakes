@@ -8,13 +8,14 @@ header:
 author_profile: true
 ---
 
-I have been carried out a number of official/personal projects in an area of embedded system platform/application, android, networking/cryptography, and web. Some of them will be introduced below.<br>
+I have been carried out a number of official/personal projects in embedded system platform/application, android, networking/cryptography, and web. 
+Some of them will be introduced below.<br>
 
 # Personal Project
 
 ## Website publishment
 
-**Target**: personal web page to share knowledge, publicize my work, and network with people.<br>
+**Target**: Established personal website to share knowledge with others, to publicize my work.<br>
 
 **Period**: 23rd April, 2016 - 1st May, 2016
 
@@ -29,7 +30,7 @@ For a Documentation, goto [HERE](/documentation/Web-Documentation)
 
 ## UC1500
 
-**Target**: Customer wanted to change part of their UI from 2D to 3D. Therefore, coworked with middleware and provided 3D platform which can call 3D API on former UC1000 platform.
+**Target**: Implemented interface for 3D graphics, and modified BSP drivers (including uboot) to run HW accelerator from higher layers, patched and merged BSP and kernel source.
 
 
 ![uc1500](/images/work/uc1500.png)
@@ -39,7 +40,7 @@ For a Documentation, goto [HERE](/documentation/Web-Documentation)
 
 ## UC1300
 
-**Target**: Board bringup, BSP porting into new chip including kernal patch and company common interface source merging as well as continuous integration had been carried. hardware verification had been proceeded using modified software modified sound and video interface for dolby and HDCP certification.
+**Target**: Board bringup and BSP porting into a new chip (including kernal patch) and merged base code. Continuous integrations and hardware verification were  proceeded as well as the test for Dolby and HDCP certification by modified sound and video driver interface software.
 
 ![uc1300](/images/work/uc1300.png)
 
@@ -50,14 +51,19 @@ For a Documentation, goto [HERE](/documentation/Web-Documentation)
 
 ## AVN (Audio-Video-Navigation)
 
-Target: Design, Implementation and test AMP board, and Take control of the peripherals through CPU board
+Target: Designed, Implemented and tested Slave board, and Take control of the peripherals through CPU board
 
 ![AVN](/images/work/avn.png)
 
-## Calendar/Diary Application.  
+## Calendar/Diary Application.
 
-Target: Application implementation including testing on top of IVOS UI framework as well as issue analysis and troubleshooting.
+Target: Application implementation (Calendar and Diary) over UI framework and solved problems of customer reported issues.
 
 ![calendar UI](/images/work/celrun.png)
 
 
+## Cross-platform Server and PC & mobile clients
+
+Target: Implmented multi-thread cross-platform server and different type of clients in SDLC process.
+
+![crossplatform](/images/work/cross-pf.png)
