@@ -16,6 +16,7 @@ Some of them will be introduced below.<br>
 # Personal Project
 
 ## QT analog and digital clock
+**Target**: Study Qt libraries and implement analog clock and stop watch timer<br>
 **Period**: 23rd July, 2016 - 23rd July, 2016
 
 ![clock ui](/images/work/qt_clock_ui.png)
