@@ -11,25 +11,34 @@ author_profile: true
 I have been carried out a number of official/personal projects in embedded system platform/application, android, networking/cryptography, and web. 
 Some of them will be introduced below.<br>
 
+<br>
+
 # Personal Project
+
+## QT analog and digital clock
+**Period**: 23rd July, 2016 - 23rd July, 2016
+
+![clock ui](/images/work/qt_clock_ui.png)
+![clock_design](/images/work/qt_clock.png)
+
+## Open Project - Hackathon
+**Target**: Designed simple hardware and implemented software <br>
+**Period**: June, 2016
+
+![hackathon](/images/work/hackathon.png)
 
 ## Website publishment
 
 **Target**: Established personal website to share knowledge with others, to publicize my work.<br>
-
 **Period**: 23rd April, 2016 - 1st May, 2016
 
 For a Documentation, goto [HERE](/documentation/Web-Documentation)
 
-
-
-## **(To be updated more soon..)** ##
-
+<br>
 
 # Project
 
 ## UC1500
-
 **Target**: Implemented interface for 3D graphics, and modified BSP drivers (including uboot) to run HW accelerator from higher layers, patched and merged BSP and kernel source.
 
 
