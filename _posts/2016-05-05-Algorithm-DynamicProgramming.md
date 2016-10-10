@@ -7,6 +7,7 @@ header:
   caption: "Photo credit: [**pixabay**](https://pixabay.com)"
 tag: 
   - dynamic programming
+  - memorized recursion
 categories:
   - Algorithm
 author_profile: true
