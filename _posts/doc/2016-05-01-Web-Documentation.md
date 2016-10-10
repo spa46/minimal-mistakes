@@ -2,7 +2,7 @@
 layout: single
 title: "Documentation: Create a website using Jekyll"
 header:
-  image: main_doc1.jpg
+  image: main_doc1_1024.jpg
   teaser: main_doc1.jpg
   caption: "Photo credit: [**pixabay**](https://pixabay.com)"
 tag: 

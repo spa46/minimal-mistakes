@@ -1,9 +1,8 @@
 ---
-layout: single
-title: "Algorithm: Memorized recursion and dynamic programming"
+title: "Algorithm: Hashmap VS Hashset (including HashMulti)"
 header:
   image: main_algorithm1.jpg
-  teaser: main_algorithm1.jpg
+  teaser: hashtag_640.jpg
   caption: "Photo credit: [**pixabay**](https://pixabay.com)"
 tag: 
   - Hash
@@ -17,16 +16,17 @@ tag:
 categories:
   - Algorithm
 author_profile: true
+comments: true
 ---
 
-#Hash, map, set
+# map and set with and without hash
 
 Dealing with key value is widely used in data world but there are many terms such as hashmap and hashset based on its structure including those which do not have hash in front of the words. Then what are the difference?
 
 ## Hash(unordered) versus Non-hash
    
-This is intended in when inserting or deleting the data. when data are inserted or deleted, non-has functions (such as map and set) sort data; therefore, it takes longer processing time than hash or unordered method.
-Using Hash function, even though elements are not ordered, it uses its has feature to search data quickly.
+This is about ordering data which could cause performance. When inserting and deleting data, non-hash classes (such as map and set) sort data; therefore, it takes longer processing time than hash or unordered method. On the contrary,
+using hash method, even though elements are not ordered, it uses its hash feature to search data quickly.
 	
 ## MAP versus SET
 
@@ -35,7 +35,7 @@ For the key duplication, both of these do not allow duplicate keys. When it is a
 
 
 ## Confusion
-As a side who can programme both Java and C++/C#, due to the complexity of the language, terminology could bring confusion: hashtable, hashmap and hashset in Java is different to those in C++ (Concept is similar though).
+I believe someone who experienced programming both Java and C++/C# sometimes meet confusion. Due to the complexity of the language, terminology could also bring confusion: using hashtable, hashmap and hashset in Java is different to those in C++ (Concept is similar though).
 
 By my investigation, **in Java**, it seems more focused on having synchronization, and thread-safe as well as of course data structure. The detail is shown below:
 	
@@ -43,7 +43,7 @@ By my investigation, **in Java**, it seems more focused on having synchronizatio
 |-------------------| ---------- | ------- |-------- |
 |**Synchronized**   | O          | X       | X       |
 |**Key duplication**| X          | X       | X       |
-|**Allow Null**     | X          | O       | O       |
+|**Allows Null**    | X          | O       | O       |
 
 To allow duplicated keys, use class such as HashMultiMap / Hash MultiSet
 

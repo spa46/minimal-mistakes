@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Algorithm: Memorized recursion and dynamic programming"
 header:
   image: main_algorithm1.jpg

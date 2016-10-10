@@ -2,8 +2,8 @@
 layout: single
 title: "Hardware: Study of sensors"
 header:
-  image: 
-  teaser: 
+  image: main_hw1.jpg
+  teaser: circuit-board_640.jpg
 tag: sensor
 categories:
   - Hardware
