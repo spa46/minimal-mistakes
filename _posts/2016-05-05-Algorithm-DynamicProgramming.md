@@ -12,9 +12,9 @@ categories:
 author_profile: true
 ---
 
-Recursive method often used to enhance simplicity and performance. In particular, to enhance its performance, memorized recursion could be used.
+Recursive method oftenly used to enhance readability and performance but sometimes it disgrades the effectiveness due to inappropriate approach. To use it rightfully, sometimes, memorized recursion may take the place.
 
-In this post, a problem is given and it will be solved in variety methods.
+In this post, the question is provided below to carefully analyze which algorithm would be a reasonable approach to solve the problem.
 
 	Assume, there is a 2D graph start from (0,0) and it wants to reach to (5,4). 
 	How many ways to reach to the desination?
