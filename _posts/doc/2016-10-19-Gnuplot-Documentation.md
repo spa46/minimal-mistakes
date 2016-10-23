@@ -17,7 +17,13 @@ author_profile: true
 
 {% include toc %}
 
-Gnuplot(freeware) is a command-driven, interactive, function and data plotting program for producing 2D and 3D graph. Although, This does not have many features compared to commerical plotting software, it isn't complex to use. Therefore, it is ideal for users those who do not want to learn a difficult major tools. <br>
+# Introduction
+
+Gnuplot(freeware) is a command-driven, interactive, function and data plotting program for producing 2D and 3D graph. Although, This does not have many features compared to commerical plotting software, it isn’t complex to use. Therefore, it is ideal for users those who do not want to learn a difficult major tools.  
+<br>
+<br>
+<br>
+<br>
 
 
 # Structure (Abstract)
@@ -97,11 +103,9 @@ Gnuplot(freeware) is a command-driven, interactive, function and data plotting p
 There is a C++ library for easy use: gnuplot-iostream interface. This basically pushes data arrays and mouse clicks using iostream pipe to plot the data with extrafunctions. This low level interface simply use std::vector<std::vector<std::pair<double, double>>> to push data. 
 
 ### Documentation
-
 For a documentation, click [here](https://github.com/dstahlke/gnuplot-iostream/wiki)
 
 ### Download
-
 To Clone the source code from git:
 
 	git clone https://github.com/dstahlke/gnuplot-iostream.git
@@ -117,17 +121,15 @@ For example,
 	
 	 g++ -o test test.cc -lboost_iostreams -lboost_system -lboost_filesystem
 
-# Visualization
+<br>
 
-These are the samples of output.
+# Samples
 
-![sample1](/images/algorithm/gnuplot_bg.png)
+![sample1](/images/gnuplot_bg.png)
 
-![sample2](/images/algorithm/gnuplot_bg1.png)
-
+![sample2](/images/gnuplot_bg1.png)
 
 # References
-
 1. [gnuplot official website](http://gnuplot.sourceforge.net/)
 2. [gnuplot manual](http://www.fnal.gov/docs/products/gnuplot/manual/)   
 2. T.kawano, (2005). gnuplot tips. [http://lowrank.net/gnuplot/index-e.html](http://lowrank.net/gnuplot/index-e.html)
