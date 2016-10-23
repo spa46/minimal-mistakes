@@ -18,7 +18,7 @@ One of the way of getting track of median in real-time: using two heaps (Min & M
 
 ![Min-Max Median Heap](/images/algorithm/minmax/minmax.jpg)
 
-Design of Operation:
+Design of Algorithm:
 
 	1. compare value with median
 	2. if the value is smaller than median, insert it to Max heap,
@@ -29,6 +29,12 @@ Design of Operation:
 		 if same size of two heaps => median = (minRoot + maxRoot) >> 1,
             more nodes in max heap => median = minRoot,
             else median maxRoot
+<br>
 
+
+ # Latency comparison
+
+ From the graph, median using priority queue shows high latency comapre to that of using array. To program priority queue, I used C++ queue library, and for an array, I made my own implementation, swap node (write operation) every time it compares. So this algorithm could have been optimized as write operation takes more time than read(access) operation.
+ 
 ![gnuplot](/images/algorithm/minmax/heap.png)
 		 

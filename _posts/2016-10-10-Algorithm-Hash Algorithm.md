@@ -35,7 +35,7 @@ For the key duplication, both of these do not allow duplicate keys. When it is a
 
 
 ## Confusion
-I believe someone who experienced programming both Java and C++/C# sometimes meet confusion. Due to the complexity of the language, terminology could also bring confusion: using hashtable, hashmap and hashset in Java is different to those in C++ (Concept is similar though).
+I believe someone who programs both Java and C++/C# sometimes have confusion. Due to the complexity of the language, terminology could also bring confusion: using hashtable, hashmap and hashset in Java is different to those in C++ (Concept is similar though).
 
 By my investigation, **in Java**, it seems more focused on having synchronization, and thread-safe as well as of course data structure. The detail is shown below:
 	

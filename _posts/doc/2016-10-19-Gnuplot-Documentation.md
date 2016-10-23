@@ -17,22 +17,7 @@ author_profile: true
 
 {% include toc %}
 
-This page gives ideas where to start to use gnuplot and introduce its c++ library for easier usage.  
-
-# Introduction
-
-Gnuplot(freeware) is a command-driven, interactive, function and data plotting program. 
-
-# Supported Functions
-
-To change layouts, fonts, colors, assets directory needs modifications and nodejs (npm) is necessary.
-
-	nodejs
-	
-	npm install --save-dev node-sass -g
-	
-	npm install -g
-
+Gnuplot(freeware) is a command-driven, interactive, function and data plotting program for producing 2D and 3D graph. Although, This does not have many features compared to commerical plotting software, it isn't complex to use. Therefore, it is ideal for users those who do not want to learn a difficult major tools. <br>
 
 
 # Structure (Abstract)
@@ -112,9 +97,11 @@ To change layouts, fonts, colors, assets directory needs modifications and nodej
 There is a C++ library for easy use: gnuplot-iostream interface. This basically pushes data arrays and mouse clicks using iostream pipe to plot the data with extrafunctions. This low level interface simply use std::vector<std::vector<std::pair<double, double>>> to push data. 
 
 ### Documentation
+
 For a documentation, click [here](https://github.com/dstahlke/gnuplot-iostream/wiki)
 
 ### Download
+
 To Clone the source code from git:
 
 	git clone https://github.com/dstahlke/gnuplot-iostream.git
@@ -130,8 +117,17 @@ For example,
 	
 	 g++ -o test test.cc -lboost_iostreams -lboost_system -lboost_filesystem
 
+# Visualization
+
+These are the samples of output.
+
+![sample1](/images/algorithm/gnuplot_bg.png)
+
+![sample2](/images/algorithm/gnuplot_bg1.png)
+
 
 # References
+
 1. [gnuplot official website](http://gnuplot.sourceforge.net/)
 2. [gnuplot manual](http://www.fnal.gov/docs/products/gnuplot/manual/)   
 2. T.kawano, (2005). gnuplot tips. [http://lowrank.net/gnuplot/index-e.html](http://lowrank.net/gnuplot/index-e.html)
