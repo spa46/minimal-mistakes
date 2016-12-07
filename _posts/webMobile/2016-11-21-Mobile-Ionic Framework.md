@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Mobile: Ionic Framework"
 header:
   image: main_doc1_1024.jpg
