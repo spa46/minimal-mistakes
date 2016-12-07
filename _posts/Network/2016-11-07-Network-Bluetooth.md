@@ -1,8 +1,8 @@
 ---
 title: "Network: Bluetooth"
 header:
-  image: network.jpg
-  teaser: main_network1.jpg
+  image: main_network1.jpg
+  teaser: network.jpg
   caption: "Photo credit: [**pixabay**](https://pixabay.com)"
 tag: 
   - Bluetooth
