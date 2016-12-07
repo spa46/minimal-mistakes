@@ -1,8 +1,8 @@
 ---
-title: "Documentation: Mobile Development - Ionic Framework"
+title: "Mobile: Ionic Framework"
 header:
-  image: 
-  teaser: 
+  image: main_doc1_1024.jpg
+  teaser: iphone.jpg
   caption: "Photo credit: [**pixabay**](https://pixabay.com)"
 tag: 
   - Ionic

@@ -1,8 +1,9 @@
 ---
+layout: single
 title: "Documentation: GStreamer"
 header:
-  image: 
-  teaser: 
+  image: main_doc1_1024.jpg
+  teaser: main_doc1.jpg
   caption: "Photo credit: [**pixabay**](https://pixabay.com)"
 tag: 
   - gstreamer

@@ -1,8 +1,8 @@
 ---
-title: "Documentation: Bluetooth"
+title: "Network: Bluetooth"
 header:
-  image: main_hw1.jpg
-  teaser: main_hw1.jpg
+  image: network.jpg
+  teaser: main_network1.jpg
   caption: "Photo credit: [**pixabay**](https://pixabay.com)"
 tag: 
   - Bluetooth
