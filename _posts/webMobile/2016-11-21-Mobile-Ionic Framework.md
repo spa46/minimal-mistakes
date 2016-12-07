@@ -14,7 +14,7 @@ tag:
   - Mobile WebApp
   - Mobile Application
 categories: 
-  - Documentation
+  - Web & Mobile
 
 author_profile: true
 ---

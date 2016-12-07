@@ -11,7 +11,7 @@ tag:
   - BT
   - Bluetooth programming
 categories: 
-  - Documentation
+  - Network
 
 author_profile: true
 ---

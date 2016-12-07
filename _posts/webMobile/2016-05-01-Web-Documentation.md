@@ -8,7 +8,7 @@ header:
 tag: 
   - Website
 categories: 
-  - Documentation
+  - Web & Mobile
 
 author_profile: true
 ---
