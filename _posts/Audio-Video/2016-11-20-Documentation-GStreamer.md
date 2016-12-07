@@ -8,8 +8,8 @@ header:
 tag: 
   - gstreamer
   - porting gstreamer
-  - 
-  - 
+categories: 
+  - AV
 
 author_profile: true
 ---
