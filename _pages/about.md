@@ -39,14 +39,14 @@ For a Documentation, goto [HERE](/documentation/Web-Documentation)
 
 # Project
 
-## UC1500
+## UC1500	
 **Target**: Implemented interface for 3D graphics, and modified BSP drivers (including uboot) to run HW accelerator from higher layers, patched and merged BSP and kernel source.
 
 
 ![uc1500](/images/work/uc1500.png)
-
+<!--
 ![uc1500 front](/images/work/uc1500_front.jpg)
-
+-->
 
 ## UC1300
 
@@ -54,10 +54,11 @@ For a Documentation, goto [HERE](/documentation/Web-Documentation)
 
 ![uc1300](/images/work/uc1300.png)
 
+<!--
 ![uc1300 front](/images/work/uc1300_front.jpg)
 
 ![uc1300 back](/images/work/uc1300_back.jpg)
-
+-->
 
 ## AVN (Audio-Video-Navigation)
 
