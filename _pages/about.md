@@ -37,7 +37,7 @@ For a Documentation, goto [HERE](/documentation/Web-Documentation)
 
 <br>
 
-# Project
+# OLD Projects ( ? ~ 2016)
 
 ## Platform A
 **Target**: Implemented interface for 3D graphics, and modified BSP drivers (including uboot) to run HW accelerator from higher layers, patched and merged BSP and kernel source.

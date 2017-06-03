@@ -12,6 +12,7 @@ tag:
 categories:
   - Programming
 author_profile: true
+comments: true
 ---
 
 Recursive method oftenly used to enhance readability and performance but sometimes it disgrades the effectiveness due to inappropriate approach. To use it rightfully, sometimes, memorized recursion may take the place.

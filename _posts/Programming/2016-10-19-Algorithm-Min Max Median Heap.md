@@ -11,6 +11,7 @@ tag:
 categories:
   - Algorithm
 author_profile: true
+comments: true
 ---
 
 One of the way of getting track of median in real-time: using two heaps (Min & Max heaps)
