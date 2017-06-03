@@ -4,11 +4,13 @@ header:
   image: main_algorithm1.jpg
   teaser: main_algorithm1.jpg
   caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag: 
+tag:
   - dynamic programming
   - memorized recursion
-categories:
   - Algorithm
+
+categories:
+  - Programming
 author_profile: true
 ---
 
@@ -16,7 +18,7 @@ Recursive method oftenly used to enhance readability and performance but sometim
 
 In this post, the question is provided below to carefully analyze which algorithm would be a reasonable approach to solve the problem.
 
-	Assume, there is a 2D graph start from (0,0) and it wants to reach to (5,4). 
+	Assume, there is a 2D graph start from (0,0) and it wants to reach to (5,4).
 	How many ways to reach to the desination?
 
 what could be the best approach above? <br>
@@ -52,9 +54,9 @@ To see it in brief, first, memorized recursion and dynamic prgoramming method wo
 			return 0;
 		if (posx == x && posy == y)
 			return 1;
-		if (dp[posx][posy] !=0 ) 
+		if (dp[posx][posy] !=0 )
 			return dp[posx][posy];
-		
+
 		return dp[posx][posy] = dfs(posx+1, posy) + dfs(posx, posy+1)
 	}
 
@@ -65,11 +67,11 @@ To see it in brief, first, memorized recursion and dynamic prgoramming method wo
 	/* Example of dynamic programming */
 	const int h = 5, w = 4;
 	int dp[h+1][w+1];
-	
+
 	void dynamic() {
 		int i,j;
 		dp[0][0] = 1;
-		
+
 		for(i=0; i<=h; i++) {
 			for(j=0; j <= w; j++) {
 				if (i!=0) dp[i][j] += dp[i-1][j];
@@ -91,4 +93,4 @@ In this case, we can use ***combination*** method: 9C4 = 126.
 
 
 
-Reference: 
+Reference:

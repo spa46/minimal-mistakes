@@ -26,7 +26,6 @@ author_profile: true
 Ionic is a complete open-source SDK for hybrid mobile app development built on top of AngularJS and Apache Cordova. this helps developing hybrid mobile apps using Web technologies like CSS, HTML5, and Sass. 
 
 # Cons & Pros
-
 The purpose of using Ionic is that I can deploy both Android and IOS; furthermore even web, within same code.
 So it would save my time to develop apps. However, generally, people say that this is bit slower than native apps.
 
@@ -34,11 +33,12 @@ So it would save my time to develop apps. However, generally, people say that th
 # Type
 Ionic supports two types: `Ionic1` and `Ionic2`. <br> 
 Ionic 1 based on Angular 1 where Ionic 2 based on Angular 2
-
+<!--
 The advantage of Ionic 1:
 	
 	More classic than Ionic 1.
 	Older than Ionic 2, so bit more stable.
+-->
 
 The advantage of Ionic 2 over Ionic 1 is:
 
@@ -131,3 +131,46 @@ Click [Here](http://stackoverflow.com/questions/33413180/xcode-7-1-simulator-can
 
 ## Reference:
 http://blog.saltfactory.net/ionic/start-ionic-edge-book.html (Korean)
+
+
+#Troubleshooting
+
+Installing npm using, 
+
+	npm install -g ionic cordova
+
+could return following erros:
+	
+	53840 warn In ionic@2.0.0 replacing bundled version of semver with semver@4.2.0
+	53841 warn In ionic@2.0.0 replacing bundled version of ionic-app-lib with ionic-app-lib@2.0.0
+	53842 verbose stack Error: ENOENT: no such file or directory, rename '/Users/m/.nvm/versions/node/v5.12.0/lib/node_modules/.staging/ansi-93ed635c' -> '/Users/m/.nvm/versions/node/v5.12.0/lib/node_modules/ionic/node_modules/cordova-lib/node_modules/ansi'
+	53842 verbose stack     at destStatted (/Users/m/.nvm/versions/node/v5.12.0/lib/node_modules/npm/lib/install/action/finalize.js:25:7)
+	53842 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+	53842 verbose stack
+	53842 verbose stack Error: ENOENT: no such file or directory, rename '/Users/m/.nvm/versions/node/v5.12.0/lib/node_modules/.staging/ansi-93ed635c' -> '/Users/m/.nvm/versions/node/v5.12.0/lib/node_modules/ionic/node_modules/cordova-lib/node_modules/ansi'
+	53842 verbose stack     at Error (native)
+	53843 verbose cwd /dev.snaphappi.com/_ng2/mappi0
+	53844 error Darwin 15.6.0
+	53845 error argv "/Users/m/.nvm/versions/node/v5.12.0/bin/node" "/Users/m/.nvm/versions/node/v5.12.0/bin/npm" "install" "-g" "ionic"
+	53846 error node v5.12.0
+	53847 error npm  v3.8.6
+	53848 error path /Users/m/.nvm/versions/node/v5.12.0/lib/node_modules/.staging/ansi-93ed635c
+	53849 error code ENOENT
+	53850 error errno -2
+	53851 error syscall rename
+	53852 error enoent ENOENT: no such file or directory, rename '/Users/m/.nvm/versions/node/v5.12.0/lib/node_modules/.staging/ansi-93ed635c' -> '/Users/m/.nvm/versions/node/v5.12.0/lib/node_modules/ionic/node_modules/cordova-lib/node_modules/ansi'
+	53853 error enoent ENOENT: no such file or directory, rename '/Users/m/.nvm/versions/node/v5.12.0/lib/node_modules/.staging/ansi-93ed635c' -> '/Users/m/.nvm/versions/node/v5.12.0/lib/node_modules/ionic/node_modules/cordova-lib/node_modules/ansi'
+	53853 error enoent This is most likely not a problem with npm itself
+	53853 error enoent and is related to npm not being able to find a file.
+	53854 verbose exit [ -2, true ]
+
+This could be due to re-installation of ionic, in this case,<br>
+remove the installation and do reinstallation
+
+	npm -g remove ionic
+	npm install -g ionic cordova
+
+## Run Ionic
+To run ionic in Windows command prompt, execute this first:
+
+	"C:\Program Files\nodejs\nodevars.bat"

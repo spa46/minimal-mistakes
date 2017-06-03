@@ -8,7 +8,7 @@ header:
 author_profile: true
 ---
 
-I have been carried out a number of official/personal projects in embedded system platform/application, android, networking/cryptography, and web. 
+I have been carried out a number of official/personal projects in embedded system platform/application, android, networking/cryptography, and web.
 Some of them will be introduced below.<br>
 
 <br>
@@ -39,20 +39,20 @@ For a Documentation, goto [HERE](/documentation/Web-Documentation)
 
 # Project
 
-## UC1500	
+## Platform A
 **Target**: Implemented interface for 3D graphics, and modified BSP drivers (including uboot) to run HW accelerator from higher layers, patched and merged BSP and kernel source.
 
 
-![uc1500](/images/work/uc1500.png)
+![Platform A](/images/work/uc1500.png)
 <!--
 ![uc1500 front](/images/work/uc1500_front.jpg)
 -->
 
-## UC1300
+## Platform B
 
 **Target**: Board bringup and BSP porting into a new chip (including kernal patch) and merged base code. Continuous integrations and hardware verification were  proceeded as well as the test for Dolby and HDCP certification by modified sound and video driver interface software.
 
-![uc1300](/images/work/uc1300.png)
+![Platform B](/images/work/uc1300.png)
 
 <!--
 ![uc1300 front](/images/work/uc1300_front.jpg)
