@@ -164,6 +164,62 @@ Change next setting will solve you the problem:
 
 ![puty setting for tmux](/images/env/tmux_putty.png)
 
+# Additional key settings
+
+    set -g terminal-overrides "xterm*:kLFT5=\eOD:kRIT5=\eOC:kUP5=\eOA:kDN5=\eOB:smkx@:rmkx@"
+    unbind M-Up
+    unbind M-Down
+    unbind M-Right
+    unbind M-Left
+    unbind M-1
+    unbind M-2
+    unbind M-3
+    unbind M-4
+    unbind M-5
+    unbind M-n
+    unbind M-o
+    unbind M-p
+    unbind C-Up
+    unbind C-Down
+    unbind C-Left
+    unbind C-Right
+
+    # unbind single keys
+    unbind Up
+    unbind Down
+    unbind Right
+    unbind Left
+    unbind {
+    unbind }
+    unbind l
+    unbind n
+    unbind p
+    unbind o
+
+    bind-key -n F1 select-window -t :0
+    bind-key -n F2 select-window -t :1
+    bind-key -n F3 select-window -t :2
+    bind-key -n F4 select-window -t :3
+    bind-key -n F5 select-window -t :4
+    bind-key -n F12 new-window
+
+    bind-key -n M-Right next-window
+    bind-key -n M-Left previous-window
+
+    bind-key -n M-1 select-layout even-horizontal
+    bind-key -n M-2 select-layout even-vertical
+    bind-key -n M-3 select-layout main-horizontal
+    bind-key -n M-4 select-layout main-vertical
+    bind-key -n M-5 select-layout main-vertical
+
+    bind-key -n C-Right select-pane -R
+    bind-key -n C-Left  select-pane -L
+    bind-key -n C-Up    select-pane -U
+    bind-key -n C-Down  select-pane -D
+
+    bind-key -n C-x confirm-before -p "kill-pane #P? (y/n)" kill-pane
+    bind-key -n M-Pageup swap-pane -U
+    bind-key -n M-PageDown swap-pane -D
 
 # Reference
 
